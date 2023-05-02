@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 350px); // 3 col de ...px
+    grid-auto-columns: repeat(3, 350px); 
+    /* any content that exceeds the specified grid tracks 
+    will create implicit grid tracks.  */
+
+    gap: 20px; // espace entre éléments de la grille
+  }
+  
+  .contentCard {
+    width: 1130px;
+  }
