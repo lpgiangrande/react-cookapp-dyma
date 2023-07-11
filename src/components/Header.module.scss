@@ -1,3 +1,5 @@
+@use '../assets/styles/mixins' as mixin;
+
 .header {
     padding: 10px 20px;
     background-color: var(--white-nav);
@@ -5,5 +7,26 @@
     img {
         width: 145px;
         padding-left: 20px;
+    }
+    position: relative;
+    height: 58px;
+}
+
+.headerList{
+    @include mixin.xs {
+        display: none;
+    }
+}
+
+.headerXs{
+    display: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    color: var(--primary);
+    &:hover{
+        opacity: 0.8;
+    }
+    @include mixin.xs {
+        display: block;
     }
 }

@@ -1,16 +1,25 @@
+import { useState } from "react";
 import styles from "./Recipe.module.scss";
-// import recipe from "../assets/images/recette.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Recipe({ title, image }) {
+
+  const [liked, setLiked] = useState(false);
+  
+  function handleLike(){
+    setLiked(!liked);
+  }
+
   return (
-    <div className={styles.recipe}>
+    <div onClick={ handleLike } className={styles.recipe}>
       <div className={styles.imageContainer}>
         <img src={image} alt="recipe" />
       </div>
       <div
-        className={`${styles.recipeTitle} d-flex flex-row justify-content-center align-items-center`}
+        className={`${styles.recipeTitle} d-flex flex-column justify-content-center align-items-center`}
       >
-        <h3>{ title }</h3>
+        <h3 className="mb-10">{ title }</h3>
+        <FontAwesomeIcon icon="fa-solid fa-heart" className={`${liked ? "text-primary" : ""}`}/>
       </div>
     </div>
   );
