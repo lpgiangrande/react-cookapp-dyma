@@ -1,6 +1,6 @@
 export const data = [
   {
-    title: "Recette 1",
+    title: "Donuts",
     _id: "62a9f59ad7b1792b7e196f28",
     image:
       "https://images.unsplash.com/photo-1612240498936-65f5101365d2?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw1M3x8Zm9vZHxlbnwwfHx8fDE2NTUzMDU2MjY&ixlib=rb-1.2.1&w=500&h=700",
@@ -18,13 +18,13 @@ export const data = [
       "https://images.unsplash.com/photo-1488477181946-6428a0291777?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw1NXx8Zm9vZHxlbnwwfHx8fDE2NTUzMDU2MjY&ixlib=rb-1.2.1&w=500&h=700",
   },
   {
-    title: "Recette 4",
+    title: "Linguines au pesto",
     _id: "62a9f59ad7b1792b7e196f2c",
     image:
       "https://images.unsplash.com/photo-1532939624-3af1308db9a5?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw1N3x8Zm9vZHxlbnwwfHx8fDE2NTUzMDU2MjY&ixlib=rb-1.2.1&w=500&h=700",
   },
   {
-    title: "Recette 5",
+    title: "Saumon",
     _id: "62a9f59ad7b1792b7e196f2e",
     image:
       "https://images.unsplash.com/photo-1568600891621-50f697b9a1c7?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw1OXx8Zm9vZHxlbnwwfHx8fDE2NTUzMDU2MjY&ixlib=rb-1.2.1&w=500&h=700",
@@ -36,25 +36,25 @@ export const data = [
       "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw2MHx8Zm9vZHxlbnwwfHx8fDE2NTUzMDU2MjY&ixlib=rb-1.2.1&w=500&h=700",
   },
   {
-    title: "Recette 7",
+    title: "Brochettes",
     _id: "62a9f65dd7b1792b7e196f3b",
     image:
       "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHwyfHxmb29kfGVufDB8fHx8MTY1NTMwNTgyMQ&ixlib=rb-1.2.1&w=500&h=700",
   },
   {
-    title: "Recette 8",
+    title: "Bowl",
     _id: "62a9f65dd7b1792b7e196f3c",
     image:
       "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHwzfHxmb29kfGVufDB8fHx8MTY1NTMwNTgyMQ&ixlib=rb-1.2.1&w=500&h=700",
   },
   {
-    title: "Recette 9",
+    title: "Pancakes",
     _id: "62a9f65dd7b1792b7e196f3d",
     image:
       "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw0fHxmb29kfGVufDB8fHx8MTY1NTMwNTgyMQ&ixlib=rb-1.2.1&w=500&h=700",
   },
   {
-    title: "Recette 10",
+    title: "Pizza",
     _id: "62a9f65dd7b1792b7e196f3e",
     image:
       "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw1fHxmb29kfGVufDB8fHx8MTY1NTMwNTgyMQ&ixlib=rb-1.2.1&w=500&h=700",
@@ -66,7 +66,7 @@ export const data = [
       "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw2fHxmb29kfGVufDB8fHx8MTY1NTMwNTgyMQ&ixlib=rb-1.2.1&w=500&h=700",
   },
   {
-    title: "Recette 12",
+    title: "Fraisier",
     _id: "62a9f65dd7b1792b7e196f40",
     image:
       "https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixid=MnwxMDkyNjJ8MHwxfHNlYXJjaHw3fHxmb29kfGVufDB8fHx8MTY1NTMwNTgyMQ&ixlib=rb-1.2.1&w=500&h=700",
